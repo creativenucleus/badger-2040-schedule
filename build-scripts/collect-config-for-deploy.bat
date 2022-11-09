@@ -10,8 +10,6 @@ set destfolder=%2
 echo *START* [Collect config for deploy]
 echo = From folder '%srcfolder%' to folder '%destfolder%'
 
-echo %srcfolder%\config.py %destfolder%\config.py
-
 copy %srcfolder%\config.py %destfolder%\config.py
 
 echo *COMPLETE* [Collect config for deploy]
