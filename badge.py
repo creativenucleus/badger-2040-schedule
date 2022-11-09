@@ -7,7 +7,7 @@ WIDTH = badger2040.WIDTH
 HEIGHT = badger2040.HEIGHT
 TEXTAREA_WIDTH = 196
 
-from schedule.config import sessions
+from cn_schedule.config import event_title, sessions
 
 sessionId = 0
 N_SESSIONS = len(sessions)
@@ -16,7 +16,7 @@ PROGRESS_HEIGHT = 10
 
 for session in sessions:
     session['image_data'] = bytearray(int(96 * 96 / 8))
-    open("schedule/images/" + session['image_src'], "r").readinto(session['image_data'])
+    open("cn_schedule/images/" + session['image_src'], "r").readinto(session['image_data'])
 
 def split_text(text, maxWidth, scale):
     lines = []
@@ -60,7 +60,7 @@ def draw_text():
     
     badger.font("bitmap8") # "sans", "bitmap8", "bitmap14_outline"
 
-    time = "Thinking Digital  ~  {2} ({0}-{1})".format(session['start'], session['end'], session['title'])
+    time = "{0}  ~  {3} ({1}-{2})".format(event_title, session['start'], session['end'], session['title'])
     textWidth = badger.measure_text(time, 1.0)
     badger.text(time, int((WIDTH - textWidth)/2), 0, 1.0)
 #    badger.text(time, 0, 0, 1.0)
