@@ -2,6 +2,8 @@
 
 This turns your Badger into a portable conference schedule viewer.
 
+![Badger Schedule in action](https://github.com/creativenucleus/badger-2040-schedule/blob/main/readme/badger-schedule.gif?raw=true)
+
 Configure the talks for a day, and skip forward and back with the face buttons.  
 Marvel at the progress bar at the bottom of the Badger.
 
