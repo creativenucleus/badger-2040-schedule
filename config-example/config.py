@@ -11,7 +11,7 @@ sessions = []
 sessions.append({
     'title': "The Session's Title",
     'speaker': "James Rutherford",
-    'sub': "An extra subheading",
+    'sub': "He loves his code!",
     'description': "This is a description of the session. There's a limited amount of space for this, so go easy champ!",
     'start': '10:00',
     'end': '13:00',
@@ -22,7 +22,7 @@ sessions.append({
     'title': "This is Session 2",
     'speaker': "@jtruk@mastodon.social",
     'sub': "Another subheading",
-    'description': "Well, I guess we're on to session two. Enjoy!",
+    'description': "Well, I guess we're on to session two. Enjoy! This is the Badger Schedule example :)",
     'start': '14:00',
     'end': '15:30',
     'image_src': "james-2.bin"

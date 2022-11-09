@@ -57,9 +57,9 @@ The Badger requires image assets to be compiled in a particular format. The buil
 ## All gone well?
 
 Please send me a message / picture / video of your Badger :)  
-[Twitter: @jtruk](https://twitter.com/jtruk)
-[Mastodon: @jtruk@mastodon.social](https://mastodon.social/@jtruk)
-[Web: creativenucleus.com](https://www.creativenucleus.com)
+- [Twitter: @jtruk](https://twitter.com/jtruk)
+- [Mastodon: @jtruk@mastodon.social](https://mastodon.social/@jtruk)
+- [Web: creativenucleus.com](https://www.creativenucleus.com)
 
 ## References
 
