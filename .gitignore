@@ -1,0 +1,8 @@
+external-code/
+!external-code/.gitkeep
+
+config/
+!config/.gitkeep
+
+_temp/
+_deploy/
